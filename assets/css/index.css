@@ -1,1 +1,54 @@
+body{
+    font-family: 'Bruno Ace SC', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #000000;
+}
+* {
+    box-sizing: border-box;
+}
 
+.container {
+    max-width: 1296px;
+    margin: auto;
+    border: #a0db15 1px solid;
+}
+.nav_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0px;  
+}
+
+.nav_item{
+    color: white;
+}
+
+.list_item a:hover {
+    opacity: 0.7;
+}
+
+.banner{
+    border: #d84f0b 1px solid;
+    padding-top: 72px;
+    padding-bottom: 32px;
+}
+
+.bn-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text {
+    border: #fb14d9 1px solid;
+    width: 50%;
+    color: white;
+}
+
+.text .hi{
+    font-size: 64px;
+}
+.text .name {
+    font-size: 64px;
+    color: #00FFA3;
+}
